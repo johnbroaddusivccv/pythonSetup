@@ -2,10 +2,7 @@
 
 vsc/python virtual environments, intellisense, debugging, testing, documentation, live output, etc.
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dependencies.
-
+## Installation && usage
 ```bash
 git init
 ```
@@ -18,28 +15,27 @@ git clone https://github.com/johnbroaddusivccv/pythonSetup.git
 cd pythonSetup
 ```
 
-## Usage
 Make sure Python is installed 
 ```bash
 python ––version
 ```
 When using python it's important to create a virtual enviroment. A virtual enviroment is a tool that helps to keep dependencies required by different projects separate by isolation.
 
-To create a virtual enviroment bash the following.
+To create a virtual enviroment bash the following:
 * on windows 10
 ```bash
 py -m venv venv
 ```
 
-to activate the virtual enviroment bash the following.
+to activate the virtual enviroment bash the following:
 ```bash
 source venv/scripts/activate
 ```
-to deactivate the virtual enviroment bash the following.
+to deactivate the virtual enviroment bash the following:
 ```bash
 deactivate
 ```
-## Python Extension for Visual Studio Code
+## Python Extensions for Visual Studio Code
 * The most important extension is the [python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) it gives us ability for intellisense, snippets, debugging, testing, etc.
 * [Kite](https://kite.com/download/?utm_medium=referral&utm_source=youtube&utm_campaign=TechGuyWeb&utm_content=python_vscode) allows us to view in depth documentation with a simple hover in Visual Studio Code. I use this when writing python but this is optional.
 * [AREPL](https://marketplace.visualstudio.com/items?itemName=almenon.arepl) is a scratchpad in which debugging, running, and writing your code can all be done at the same time.
