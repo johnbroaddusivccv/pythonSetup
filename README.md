@@ -23,7 +23,7 @@ Make sure Python is installed
 ```bash
 python ––version
 ```
-When using python its important to create a virtual enviroment. A virtual enviroment is a tool that helps to keep dependencies required by different projects separate by isolation.
+When using python it's important to create a virtual enviroment. A virtual enviroment is a tool that helps to keep dependencies required by different projects separate by isolation.
 
 To create a virtual enviroment bash the following.
 * on windows 10
@@ -75,7 +75,7 @@ def greet(greeting, name):
 print(greet('Hello', 'world'))
 ```
 When [main.py](https://github.com/johnbroaddusivccv/pythonSetup/blob/master/main.py) is ran it would return to following:
-```python
+```bash
 item 1
 item 2
 item 3
